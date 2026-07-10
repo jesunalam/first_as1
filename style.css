@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'inter',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+.logo_text h5 ,span,
+.nav_links a
+
+{
+    font-family: 'Arimo', sans-serif ;
+
+}
+.logo_text{
+    margin-left: 8px;
+}
+.logo_text h5,span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.nav_links a{
+    text-decoration: none;
+    margin: 15px;
+    color: #575757;
+    line-height: 5px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    
+}
+.nav_links a:hover{
+    color: #291774;
+    font-weight: 700;
+   
+}
+.cmn_btn{
+    width: 188px;
+    height: 48px;
+    border-radius: 12px;
+    background: #1D4ED8;
+    border: none;
+    font-size: 16px;
+    font-family: 'inter',serif;
+    font-weight: 700;
+    color: #ffffff;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+/* hero section */
+
+.hero_section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4)0%-50% , rgba( 0, 0, 0, 0.2)), url('./images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 88vh;
+
+
+}
+.container{
+ text-align: center;
+}
+.hero_section h1,p{
+    color: #ffffff;
+}
+
+.hero_section h1{
+   
+    font-size: 80px;
+    letter-spacing:-3.2px;
+    margin-bottom: 16px;
+    
+}
+.hero_section p{
+    width: 829px;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 110px;
+    padding-bottom: 100px;
+}
+.hero_section .cmn_btn{
+    margin-top: 100px;
+    width: 282px;
+    height: 70px;
+    font-size: 24px;
+    transition: 0.3s ease-in;
+}
+.cmn_btn:hover{
+    transform: translateY(-3px);
+    box-shadow:1px 5px 6px rgb(57, 131, 234) ;
+}

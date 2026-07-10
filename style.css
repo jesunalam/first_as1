@@ -72,7 +72,7 @@ nav{
 /* hero section */
 
 .hero_section{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4)0%-50% , rgba( 0, 0, 0, 0.2)), url('./images/banner.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9)0%-20% , rgba( 0, 0, 0, 0)), url('./images/banner.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
@@ -81,7 +81,6 @@ nav{
     align-items: center;
     flex-direction: column;
     height: 88vh;
-
 
 }
 .container{
@@ -127,6 +126,7 @@ nav{
 
 .about_us{
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 .about_us .container{
     max-width: 1350px;
@@ -182,4 +182,148 @@ nav{
     color: #575757;
     margin: 10px 0 30px 25px;;
     text-align: left;
+}
+
+
+
+
+
+
+/* service section */
+
+
+
+
+.service{
+   padding-top: 20px;
+}
+.service h2{
+    font-size: 48px;
+    color: #0D1B2A;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.service p{
+    font-size: 16px;
+    color: #575757;
+    margin-bottom: 50px;
+}
+.pricing_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+/* card box */
+
+.card{
+    margin-bottom: 100px;
+    width: 370px;
+    height: auto;
+    background-color: #F8F9FB;
+    text-align: left;
+    padding: 35px 35px 50px 35px;
+    border-radius: 12px;
+    border: 1px solid #8888883e;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.121);
+
+}
+ul {
+  list-style-position: inside;
+}
+.card span{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.32px;
+    color: #888888;
+}
+.card h2{
+    font-size: 38px;
+    color: #0D1B2A;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    letter-spacing: 0.5px;
+}
+.card p{
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+   
+}
+.Column_line{
+    width: 100%;
+    border:1px solid #E5E7EB ;
+    margin: 15px 0 15px;
+}
+
+
+
+/* ul part */
+
+
+
+
+.card ul li{
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+.card ul li::marker{
+    color: #2563EB;
+    font-size: 1.2rem;
+}
+
+
+/* button */
+
+
+.service button{
+    width: 100%;
+    margin-top: 15px;
+    height: 45px;
+    border: none;
+    outline: 2px solid #2563EB;
+    border-radius: 12px;
+    background: none;
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.service button:hover{
+    transform: translateY(-3px);
+    box-shadow:1px 5px 6px rgb(57, 131, 234) ;
+}
+    
+
+ /* pro card */
+
+
+.pro{
+    background-color: #0D1B2A;
+    transform: translateY(-5px); 
+    padding-bottom: 65px;
+    box-shadow:  3px 5px 6px rgba(0, 0, 0, 0.416) ;
+    
+}
+.pro span,
+.pro h2,
+.pro p,
+.pro ul li,
+.pro button{
+    color: #ffffff;
+}
+.pro span{
+    color: #93c4fd;
+}
+.pro button{
+    background-color: #2563EB;
 }

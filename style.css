@@ -440,5 +440,148 @@ ul {
 
 
 
+/* footer */
 
 
+.footer {
+background-color: #0b1523;
+color: #a5b4fc;
+padding: 70px 0;
+}
+.footer_wrapper{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+text-align: left;
+flex-wrap: wrap;
+  
+}
+
+/* left logo */
+
+
+.icon_logo{
+  display: grid;
+  width: 30px;
+  place-items: center;
+  height: 30px;
+  background: #0D1B2A;
+  border-radius: 5px;
+  border: 1px solid #94a3b8;
+  
+}
+.icon_area,
+.details_box{
+    margin-bottom: 20px;
+}
+
+.icon_logo i{
+  color: #ffffff;
+}
+.icon_box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  margin-bottom: 15px;
+
+}
+/* cmn */
+.footer_wrapper h2,h3{
+  color: #ffffff;
+  font-size: 16px;
+}
+.footer_wrapper h3{
+  margin-bottom: 15px;
+}
+.footer_wrapper span{
+  color: #ffffff;
+  font-size: 17px;
+  
+  
+
+} 
+.footer_wrapper p,a {
+  color:#94a3b8;
+  font-size: 13.5px;
+  margin-bottom: 5px;
+  max-width: 320px;
+  line-height: 1.8;
+
+}
+.details_box a,
+.link_box a
+{
+  text-decoration: none;
+}
+.link_box ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+
+
+
+/*input_box  */
+
+
+.input_box{
+  width: 25%;
+}
+
+
+
+.input_box input{
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+ 
+}
+.input_box .input_flex form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input_box .input_flex{
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.247);
+}
+.input_box input::placeholder {
+  color:#94a3b8;
+}
+
+.input_box button { 
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+.input_box .social_icons{
+  margin-top:30px ;
+  display: flex;
+  gap: 20px;
+
+}
+
+
+
+
+/* footer bottom */
+
+
+.footer_bottom {
+  text-align: center;
+  border-top: 1px solid #1e293b; 
+  margin-top: 50px;
+  padding-top: 25px; 
+}
+
+.footer_bottom p {
+  font-size: 13px;
+  color: #64748b;
+}
